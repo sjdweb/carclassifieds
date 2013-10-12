@@ -1,4 +1,6 @@
 Carclassifieds::Application.routes.draw do
+  root :to => "home#index"
+
   resources :cars
 
   resources :users
@@ -43,7 +45,7 @@ Carclassifieds::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
