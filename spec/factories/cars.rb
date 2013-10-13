@@ -1,7 +1,8 @@
 FactoryGirl.define do
   factory :car do
-    title "This is a title"
-    description "This is a description"
+  	id 1
+    title "Test Car 1"
+    description "Test Car 1's description."
     user_id 1
   end
 end
